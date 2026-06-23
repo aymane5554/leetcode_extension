@@ -1,0 +1,25 @@
+{
+  "name": "leetcode Extensions",
+  "description": "auto compilation Extension",
+  "version": "1.0",
+  "manifest_version": 3,
+  "action": {
+    "default_popup": "hello.html",
+    "default_icon": "icon.png"
+  },
+  "permissions": [],
+  "content_scripts": [
+    {
+      "js": ["script.js"],
+      "matches": [
+        "https://leetcode.com/problems/*"
+      ]
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["inject.js"],
+      "matches": ["https://leetcode.com/*"]
+    }
+  ]
+}
