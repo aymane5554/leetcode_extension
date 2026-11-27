@@ -13,7 +13,6 @@ A small Manifest V3 browser extension that suggests identifiers already used in 
 
 - On LeetCode problem pages, the extension looks for Monaco’s code editor.
 - As you type a word that is a prefix of another identifier in the current code, a panel at the top of the page shows the closest matching longer identifier.
-- Press **Tab** to complete the suggestion, or click it. Press **Esc** to hide it until you type again.
 - Suggestions come from identifiers in the current editor contents; they are not generated from the problem statement or an external source.
 - The toolbar popup currently only displays “Hello Extensions.”
 
